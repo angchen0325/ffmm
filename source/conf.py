@@ -29,6 +29,8 @@ project = 'ffmm'
 copyright = '2024, Ang Chen'
 release = find_version('..', 'ffmm', '__init__.py')
 
+master_doc = 'index'
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -45,8 +47,22 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['../build', 'Thumbs.db', '.DS_Store']
 
+autosummary_generate = True
+autodoc_typehints = "none"
+
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
+napoleon_include_init_with_doc = False
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -56,7 +72,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_theme_options = {"logo_only": True}
-html_logo = "_static/ffmm-logo.png"
+html_logo = "_static/ffmm_logo.png"
 html_favicon = "_static/favicon.ico"
 
 def setup (app):
