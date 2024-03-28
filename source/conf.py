@@ -34,6 +34,14 @@ release = find_version('..', 'ffmm', '__init__.py')
 
 extensions = [
     'sphinx_rtd_theme',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.extlinks",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.napoleon",
+    "IPython.sphinxext.ipython_directive",
+    "IPython.sphinxext.ipython_console_highlighting",
+    "nbsphinx",
 ]
 
 templates_path = ['_templates']
@@ -46,3 +54,10 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+html_theme_options = {"logo_only": True}
+html_logo = "_static/legume-logo.png"
+html_favicon = "_static/favicon.ico"
+
+def setup (app):
+    app.add_css_file('css/custom.css')
