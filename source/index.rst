@@ -3,8 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-ffmm: Fast Fourier Modal Method
-================================
+ffmm: Fast fmm solver for both academic and industrial applications
+========================================================================
+
+**ffmm**: (*Fast Fourier Modal Method*) is an open source Python package
+
 
 .. toctree::
    :maxdepth: 2
