@@ -6,7 +6,7 @@
 ffmm: Fast FMM Solver
 ========================================================================
 
-**ffmm**: (*Fast Fourier Modal Method*) is an open source Python package of fast Fourier modal method (FMM) solvers 
+**ffmm**: (*Fast Fourier Modal Method*) is an open source Python package of fast Fourier Modal Method (FMM) solvers 
 for both acdemic and industrial applications.
 
 
