@@ -56,7 +56,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_theme_options = {"logo_only": True}
-html_logo = "_static/legume-logo.png"
+html_logo = "_static/ffmm-logo.png"
 html_favicon = "_static/favicon.ico"
 
 def setup (app):
