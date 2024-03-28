@@ -26,7 +26,7 @@ def find_version(*file_paths):
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 project = 'ffmm'
-copyright = '2024, Ang Chen'
+copyright = '2024'
 release = find_version('..', 'ffmm', '__init__.py')
 
 master_doc = 'index'
