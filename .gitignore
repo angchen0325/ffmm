@@ -4,8 +4,8 @@ __pycache__/
 *$py.class
 
 # Makefile
-make.bat
-Makefile
+# make.bat
+# Makefile
 
 # C extensions
 *.so
