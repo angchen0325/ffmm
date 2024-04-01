@@ -4,3 +4,4 @@
 <img src="source/_static/ffmm_logo.png" align="middle" title="logo" alt="logo">
 
 # ffmm: Fast Fourier Modal Method
+This is the documentation for the Fast Fourier Modal Method (FFMM) Python package.
