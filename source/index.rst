@@ -13,7 +13,7 @@ so that everyone, whether from academia or industry, can use this software packa
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Getting Started
 
    introduction
@@ -23,7 +23,7 @@ so that everyone, whether from academia or industry, can use this software packa
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: User Guide
 
    examples
