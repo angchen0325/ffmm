@@ -26,3 +26,6 @@ so that everyone, whether from academia or industry, can use this software packa
    :maxdepth: 2
    :caption: User Guide
 
+   examples
+   api
+
