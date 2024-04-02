@@ -7,18 +7,22 @@ ffmm: Fast FMM Solver
 ========================================================================
 
 **ffmm**: (*Fast Fourier Modal Method*) is an open source Python package of fast Fourier Modal Method (FMM) solvers 
-for both academic and industrial applications.
+for both academic and industrial applications. 
+We will introduce the mathematical derivation of FMM step by step, and explain the acceleration principle of each step, 
+so that everyone, whether from academia or industry, can use this software package to customize their own **ffmm** solver. 
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Getting Started
+
+   introduction
+   theory
+   installation
+   faq
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: User Guide
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
