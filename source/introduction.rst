@@ -7,10 +7,10 @@ FMM has become a popular tool for solving problems related to these structures.
 For acedamic purposes, :math:`S^4` is a popular choice for the FMM.
 
 .. math::
-    :label: eq-mc2
-    E = mc^2
+    \nabla^2 u = 0
 
-As show in Eq. :numref:`eq-mc2`.
+where 
+As show in Eq.
 
 
 .. .. image:: _static/phc_schematic.png
