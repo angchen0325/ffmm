@@ -76,5 +76,5 @@ html_theme_options = {"logo_only": True}
 html_logo = "_static/ffmm_logo.png"
 html_favicon = "_static/favicon.ico"
 
-def setup (app):
+def setup(app):
     app.add_css_file('css/custom.css')
