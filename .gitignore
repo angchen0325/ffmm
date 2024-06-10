@@ -167,3 +167,11 @@ cython_debug/
 
 # MacOS 
 .DS_Store
+
+# Ruff
+ruff.toml
+
+# Directories
+.ipynb_checkpoints/
+latex/
+papers/
