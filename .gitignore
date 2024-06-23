@@ -174,4 +174,5 @@ ruff.toml
 # Directories
 .ipynb_checkpoints/
 latex/
+!latex/fmm-final/fmm-final
 papers/
