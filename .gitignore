@@ -173,5 +173,6 @@ ruff.toml
 
 # Directories
 notebooks/
+notebooks/*.ipynb
 latex/
 papers/
