@@ -172,6 +172,6 @@ cython_debug/
 ruff.toml
 
 # Directories
-.ipynb_checkpoints/
+notebooks/
 latex/
 papers/
